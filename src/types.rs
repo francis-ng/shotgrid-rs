@@ -39,7 +39,7 @@ pub struct BatchCreateOptionsParameter {
 /// <https://developer.shotgridsoftware.com/rest-api/#tocSbatchedrequestsresponse>
 #[derive(Clone, Debug, Deserialize, Serialize)]
 pub struct BatchedRequestsResponse {
-    pub data: Option<Vec<Record>>,
+    pub data: Option<Vec<SingleRecordResponse>>,
 }
 
 /// <https://developer.shotgridsoftware.com/rest-api/#tocSclientcredentialsrequest>
